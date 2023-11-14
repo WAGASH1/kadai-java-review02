@@ -3,7 +3,7 @@ package sample;
 public class Review01 {
 
     public static void main(String[] args) {
-        int price = 1500; //原価
+        int price = 1300; //原価
         int rate = 10; //消費税率（%）
         int consumption = tax(price,rate);
         int total = price + consumption;
